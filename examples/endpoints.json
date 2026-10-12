@@ -1,0 +1,8 @@
+[
+  {"name": "This monitor (self-check)", "url": "http://127.0.0.1:8000/health"},
+  {"name": "GitHub API", "url": "https://api.github.com", "timeout_seconds": 5},
+  {"name": "Example.com (HEAD)", "url": "https://example.com", "method": "HEAD"},
+  {"name": "Always 503 (expected unhealthy)", "url": "https://httpbin.org/status/503"},
+  {"name": "Non-routable IP (expected timeout)", "url": "http://10.255.255.1/", "timeout_seconds": 2},
+  {"name": "Closed local port (expected unreachable)", "url": "http://127.0.0.1:9/"}
+]
