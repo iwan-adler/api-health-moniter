@@ -1,5 +1,7 @@
 # API Health Monitor
 
+[![tests](https://github.com/iwan-adler/api-health-monitor/actions/workflows/tests.yml/badge.svg)](https://github.com/iwan-adler/api-health-monitor/actions/workflows/tests.yml)
+
 A small backend service that checks HTTP endpoints, classifies each one as **healthy**, **unhealthy** or **unreachable**, and stores every result in SQLite so you can see history, uptime and response times through a REST API.
 
 ## Why
